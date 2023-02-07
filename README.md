@@ -51,13 +51,7 @@ Per riprodurre i Benchmarking di WebAssembly sul Web, è sufficiente aprire la s
 
 Per riprodurre i Benchmarking dei runtime WebAssembly è necessario installare WasmEdge, Wasm3 e Wasmer (controllando la versione) e installare il tool Hyperfine sulla propria macchina.
 
-È possibile utilizzare i dataset "recursive_fibonacci.wasm" (nella directory "Fibonacci") e "coremark.wasm" (nella directory "CoreMark") per riprodurre i Benchmarking della funzione di Fibonacci ricorsiva e CoreMark 1.0.
-
-Per riprodurre i grafici dei risultati è necessario installare **Python** con le librerie *numpy*, *matplotlib* e *scipy*. Gli script sono presenti nella cartella "Script".
-Esempio esecuzione di uno script:
-```shell
-python plot_whisker.py fibonacci20_results.json
-```
+È possibile utilizzare i dataset [*recursive_fibonacci.wasm*](Fibonacci/recursive_fibonacci.wasm) e [*coremark.wasm*](CoreMark/coremark.wasm.wasm) (nella directory "CoreMark") per riprodurre i Benchmarking della funzione di Fibonacci ricorsiva e CoreMark 1.0.
 
 ### Esempio Benchmarking
 Ecco il codice di esempio per testare la funzione di Fibonacci ricorsiva con input 20.
@@ -73,5 +67,24 @@ hyperfine
 ’wasm3 -- func recursive_fib recursive_fib.wasm 20’
 -i
 ```
+## Risultati
+
+### Fibonacci
+I risultati del Benchmarking di Fibonacci sono i file [*fibonacci20_results.json*](Fibonacci/fibonacci20_results.json), [*fibonacci30_results.json*](Fibonacci/fibonacci30_results.json), [*fibonacci40_results.json*](Fibonacci/fibonacci40_results.json). 
+
+I grafici dei risultati del Benchmark della funzione di Fibonacci sono al [seguente link](Fibonacci/Plot).
+
+### CoreMark 1.0
+I risultati del Benchmarking di CoreMark 1.0 sono i file [*coremark_wasm3_results.txt*](CoreMark/coremark_wasm3_results.txt), [*coremark_wasmedge_results.txt*](CoreMark/coremark_wasmedge_results.txt), [*coremark_wasmedge_aot_results.txt*](CoreMark/coremark_wasmedge_aot_results.txt) e [*coremark_wasmer_results.txt*](CoreMark/coremark_wasmer_results.tx). Tutti i grafici dei risultati della funzione di Fibonacci sono al [seguente link](Fibonacci/Plot).
+
+I grafici dei risultati del Benchmark CoreMark 1.0 sono al [seguente link](CoreMark/Plot).
+
+### Esempio creazione grafici dei risultati
+Per riprodurre i grafici dei risultati è necessario installare **Python** con le librerie *numpy*, *matplotlib* e *scipy*. Gli script sono presenti nella cartella [Script](Script).
+Esempio esecuzione di uno script:
+```shell
+python plot_whisker.py fibonacci20_results.json
+```
+
 ## Altro
-Per visualizzare i risultati e altre informazioni relative ai Benchmarking, è possibile leggere la relazione [a relative link](Benchmarkingof_WebAssembly_in_and _outside_the_Browser.pdf).
+Per visualizzare tutti i risultati e altre informazioni relative ai Benchmarking, è possibile leggere la relazione al [seguente link](Benchmarkingof_WebAssembly_in_and_outside_the_Browser.pdf).
