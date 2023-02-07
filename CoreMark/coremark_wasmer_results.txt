@@ -1,0 +1,164 @@
+Benchmark 1: wasmer coremark.wasm
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 222311816
+Total time (secs): 17.402181
+Iterations/Sec   : 11492.812309
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 11492.812309 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 661438816
+Total time (secs): 17.841308
+Iterations/Sec   : 11209.940437
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 11209.940437 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 4187438112
+Total time (secs): 17.072340
+Iterations/Sec   : 11714.855726
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 11714.855726 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 4223424112
+Total time (secs): 17.108326
+Iterations/Sec   : 11690.214460
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 11690.214460 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 4086710112
+Total time (secs): 16.971612
+Iterations/Sec   : 11784.384418
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 11784.384418 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 2337609816
+Total time (secs): 19.517479
+Iterations/Sec   : 10247.225064
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 10247.225064 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 3715357112
+Total time (secs): 16.600259
+Iterations/Sec   : 12048.004793
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 12048.004793 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 721591816
+Total time (secs): 17.901461
+Iterations/Sec   : 11172.272475
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 11172.272475 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 4198909112
+Total time (secs): 17.083811
+Iterations/Sec   : 11706.989734
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 11706.989734 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 360153816
+Total time (secs): 17.540023
+Iterations/Sec   : 11402.493600
+Iterations       : 200000
+Compiler version : Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Compiler flags   : -O3   
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 11402.493600 / Clang 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06) -O3    / STATIC
+  Time (mean ± σ):     28.232 s ±  1.269 s    [User: 27.351 s, System: 0.548 s]
+  Range (min … max):   26.818 s … 31.362 s    10 runs
+ 
